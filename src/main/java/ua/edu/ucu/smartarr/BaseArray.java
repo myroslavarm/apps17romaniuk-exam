@@ -2,8 +2,9 @@ package ua.edu.ucu.smartarr;
 
 // Base array for decorators
 public class BaseArray implements SmartArray{
-    private Object[] integers;
-    public BaseArray(Object[] integers){
+    //private Object[] integers;
+    private Integer[] integers;
+    public BaseArray(Integer[] integers){
         this.integers = integers;
     }
 

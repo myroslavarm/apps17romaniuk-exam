@@ -52,11 +52,12 @@ public class SmartArrayApp {
 
     public static String[]
             findDistinctStudentNamesFrom2ndYearWithGPAgt4AndOrderedBySurname(Student[] students) {
-        SmartArray studentSmartArray = new BaseArray(students);
-        Object[] result = studentSmartArray.toArray();
-        return Arrays.copyOf(result, result.length, String[].class);
+        //SmartArray studentSmartArray = new BaseArray(students);
+        //Object[] result = studentSmartArray.toArray();
+        //return Arrays.copyOf(result, result.length, String[].class);
         // Hint: to convert Object[] to String[] - use the following code
         //Object[] result = studentSmartArray.toArray();
         //return Arrays.copyOf(result, result.length, String[].class);
+        return null;
     }
 }
